@@ -1,3 +1,9 @@
+npm-debug.log
+bower_components
+.sass-cache
+.awspublish*
+config.json
+
 # dependencies
 /node_modules
 /.pnp

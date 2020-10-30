@@ -1,0 +1,48 @@
+/*BEGIN .body */
+table.body {
+	background-color: $bg;
+}
+/*END .body */
+
+/*BEGIN ->  .header*/
+.header {
+	
+	&_title {
+		font: 14px $reg;
+		letter-spacing: 1px;
+		
+		color: $sale;
+	}
+	
+	&_link {
+		font-size: 12px;
+		
+		color: $desc;
+		text-decoration: underline;
+	}
+	
+}
+/*END -> .header*/
+
+/*BEGIN .sale */
+.sale {
+ 
+	&_title {
+		font: 30px $reg;
+		letter-spacing: 1px;
+		
+		color: $sale;
+	}
+	
+	&_cont p {
+		font: 20px $reg;
+		letter-spacing: 1px;
+	}
+}
+/*END .sale */
+
+/*BEGIN . ->  .footer*/
+.footer {
+	
+}
+/*END . -> .footer*/
