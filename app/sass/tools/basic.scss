@@ -29,7 +29,6 @@ ul,li {
 }
 
 body {
-	font-family: $reg;
 	color: #000; 
 	min-width: 320px;
 	width: 100%; 
@@ -37,3 +36,8 @@ body {
 	padding: 0;
 	margin: 0 auto;
 }/*END body*/
+
+table.body, p, span, h1, h2, h3, h4, h5, h6 {
+	font-family: $reg;
+	letter-spacing: 1px;
+}

@@ -7,15 +7,63 @@ block content
 				h1.text-center.header_title WAREHOUSE SALE 40%-70%OFF!
 				p.text-center
 					a.header_link(href='#') View this email in your browser
-				spacer(size-sm="10" size-lg="14")
-				img(src="img/title-bg.jpg" alt="Winter Sale")
+				spacer(size-sm="10")
+
+		img(src="img/title-bg.jpg" alt="Winter Sale")
+
+		row
+			columns
+				spacer(size-sm="10")
 
 	container.sale
 		row
 			columns
 				h2.text-center.sale_title Going on now!
-		row.sale_cont
+		row
+			columns(large="4")
+				p.text-center
+					a.sale_item(href="#")
+						img(src="img/goods/hats.jpg" alt="hats")
+						span Hats
+
+			columns(large="4")
+				p.text-center
+					a.sale_item(href="#")
+						img(src="img/goods/baselayers.jpg" alt="baselayers")
+						span Baselayers
+
+			columns(large="4")
+				p.text-center
+					a.sale_item(href="#")
+						img(src="img/goods/boots.jpg" alt="boots")
+						span Boots
+
+		row
+			columns(large="4")
+				p.text-center
+					a.sale_item(href="#")
+						img(src="img/goods/jackets.jpg" alt="jackets")
+						span Jackets
+
+			columns(large="4")
+				p.text-center
+					a.sale_item(href="#")
+						img(src="img/goods/midlayers.jpg" alt="midlayers")
+						span Midlayers
+
+			columns(large="4")
+				p.text-center
+					a.sale_item(href="#")
+						img(src="img/goods/snowboards.jpg" alt="snowboards")
+						span Snowboards
+
+		row
 			columns
+				//spacer
+
+		row
+			columns.sale_cont
+				spacer(size-sm="10" size-lg="20")
 				p.text-center New product added daily!
 				h3.text-center.sale_sub-title Our sale is open daily 11am - 7pm
 				p.text-center Masks & social distancing required

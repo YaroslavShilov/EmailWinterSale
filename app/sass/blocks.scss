@@ -8,14 +8,14 @@ table.body {
 .header {
 	
 	&_title {
-		font: 14px $reg;
-		letter-spacing: 1px;
+		font-size: 14px;
 		
 		color: $sale;
 	}
 	
 	&_link {
 		font-size: 12px;
+		letter-spacing: 0;
 		
 		color: $desc;
 		text-decoration: underline;
@@ -26,18 +26,40 @@ table.body {
 
 /*BEGIN .sale */
 .sale {
- 
+	
 	&_title {
-		font: 30px $reg;
-		letter-spacing: 1px;
+		font-size: 30px;
 		
 		color: $sale;
 	}
 	
-	&_cont p {
-		font: 20px $reg;
-		letter-spacing: 1px;
+	&_item {
+		display: inline-block;
+		margin: 0 auto;
+		
+		text-align: center;
+		text-transform: uppercase;
 	}
+	
+	&_cont {
+		background-color: $sale;
+		
+		p {
+			font-size: 18px;
+			
+			color: $white;
+		}
+	}
+	
+	&_sub-title {
+		margin: 5px 0 7px;
+		
+		font-size: 30px;
+		
+		color: $white;
+	}
+	
+	
 }
 /*END .sale */
 
